@@ -8,5 +8,15 @@
         "quantity": 3,
         "publisher": "u45u",
         "year of publication": 2005
+    },
+    {
+        "isbn": "4444443",
+        "title": "Management",
+        "author": "Rakib",
+        "genre": "Arts",
+        "price": 344.0,
+        "quantity": 7,
+        "publisher": "Karm",
+        "year of publication": 2001
     }
 ]
