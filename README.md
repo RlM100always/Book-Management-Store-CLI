@@ -29,17 +29,19 @@ All book data is stored and loaded from a file, ensuring data persistence. The s
 
 ### Clone the repository:
 
-git clone https://github.com/yourusername/BookStoreManagementSystem.git
+git clone https://github.com/RlM100always/Book-Management-Store-CLI.git
 
 ## 💻**Image** 
-<img src='https://github.com/RlM100always/Book-Management-Store-CLI/blob/main/img/Screenshot%202025-03-05%20225834.png' weight="2000" height="450"  />
-<img src='https://github.com/RlM100always/Book-Management-Store-CLI/blob/main/img/Screenshot%202025-03-05%20225953.png' weight="2000" height="450"  />
+### Viewing All Books
+<img src='https://github.com/RlM100always/Book-Management-Store-CLI/blob/main/img/Screenshot%202025-03-05%20225834.png' weight="1000" height="450"  />
+### Searching Books
+<img src='https://github.com/RlM100always/Book-Management-Store-CLI/blob/main/img/Screenshot%202025-03-05%20225953.png' weight="1000" height="450"  />
 
 
 ## 📹 Demo Video 🎥
-Check out the demo video of the Book Store Management System in action! 🚀
+Check out the demo video of the Book Store Management System CLI Project 🚀
 <a href="https://www.youtube.com/watch?v=cW-CcfUYwAU" target="_blank">
-  <img src="https://img.youtube.com/vi/cW-CcfUYwAU/0.jpg" alt="Watch the video" />
+  <img src="https://github.com/RlM100always/Book-Management-Store-CLI/blob/main/img/Book%20Store%20Management.png" weight="1000" height="450"  alt="Watch the video" />
 </a>
 
 
@@ -51,11 +53,12 @@ Check out the demo video of the Book Store Management System in action! 🚀
 Python 3.x (No external libraries or frameworks are required).
 
 👨‍💻 How to Use
-Add a Book: Select "Add Book" from the menu, then input the book's details.
-View Books: Choose "View Books" to see all saved books.
-Search Books: Search for books by ISBN, title, or author.
-Remove a Book: Select "Remove Book" and input the ISBN/Book ID of the book to delete.
-Exit: Save all data and exit the program.
+- Add a Book: Select "Add Book" from the menu,
+- Then input the book's details.
+- View Books: Choose "View Books" option 2  to see all saved books.
+- Search Books: Search for books by ISBN, title, or author,Choose Option 3
+- Remove a Book: Select "Remove Book" and input the ISBN/Book ID of the book to delete.Choose Option 4
+- Exit: Save all data and exit the program.Choose Option 5
 
 ##🚨 **Error Handling**
 Invalid inputs will be caught with clear error messages, prompting the user to enter correct values.
