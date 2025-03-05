@@ -4,6 +4,7 @@ from add_book import add_book
 from view_books import view_books
 from remove_book import remove_book
 from book_data import load_books, save_books
+from search_book import search_books
 
 # Colors (ANSI escape codes)
 RED = "\033[91m"
@@ -22,12 +23,13 @@ def show_menu():
     """ Display the main menu with colorful options. """
     clear_console()  
     print(f"{CYAN}╔══════════════════════════════════════════════════╗")
-    print(f"║            📚 {YELLOW}Book Store Management System{CYAN} 📚         ║")
+    print(f"║         📚 {YELLOW}Book Store Management System{CYAN} 📚       ║")
     print(f"╠══════════════════════════════════════════════════╣")
     print(f"║ {GREEN}1.{RESET} {MAGENTA}➕ Add Book{CYAN}                                   ║")
     print(f"║ {GREEN}2.{RESET} {MAGENTA}📖 View Books{CYAN}                                 ║")
     print(f"║ {GREEN}3.{RESET} {MAGENTA}❌ Remove Book{CYAN}                                ║")
-    print(f"║ {GREEN}4.{RESET} {MAGENTA}🚪 Exit{CYAN}                                      ║")
+    print(f"║ {GREEN}4.{RESET} {MAGENTA}🔍 Search Book{CYAN}                                ║")
+    print(f"║ {GREEN}5.{RESET} {MAGENTA}🚪 Exit{CYAN}                                       ║")
     print(f"╚══════════════════════════════════════════════════╝{RESET}")
     choice = input(f"{YELLOW}👉 Enter your choice: {RESET}")
     return choice
@@ -57,9 +59,12 @@ def main():
             save_books(books)  # Save after removing
             input(f"{YELLOW}👉 Press Enter to continue...{RESET}")
 
-        elif user_choice == '4':
+        elif user_choice == '5':
             print(f"{RED}🚪 Exiting the system. Goodbye!{RESET}")
             break
+        elif user_choice == '4':
+            search_books(books)
+            input(f"{YELLOW}🔍 Press Enter to return to the menu...{RESET}")
 
         else:
             print(f"{RED}❗ Invalid choice. Please try again.{RESET}")

@@ -1,22 +1,92 @@
 [
     {
-        "isbn": "1124124",
-        "title": "42443y",
-        "author": "4y5y5",
-        "genre": "454u",
-        "price": 44.0,
-        "quantity": 3,
-        "publisher": "u45u",
-        "year of publication": 2005
+        "isbn": "9781501124020",
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "genre": "Adventure",
+        "price": 13.99,
+        "quantity": 25,
+        "publisher": "HarperOne",
+        "year of publication": 2014
     },
     {
-        "isbn": "4444443",
-        "title": "Management",
+        "isbn": "9780439139601",
+        "title": "Harry Potter",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "price": 22.99,
+        "quantity": 30,
+        "publisher": "Scholastic",
+        "year of publication": 2002
+    },
+    {
+        "isbn": "9780385472579",
+        "title": "The Catcher",
+        "author": "J.D. Salinger",
+        "genre": "Classic",
+        "price": 10.99,
+        "quantity": 18,
+        "publisher": "Little, Brown",
+        "year of publication": 1991
+    },
+    {
+        "isbn": "9780060850524",
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "genre": "Dystopian",
+        "price": 12.49,
+        "quantity": 22,
+        "publisher": "Harper Perennial",
+        "year of publication": 2006
+    },
+    {
+        "isbn": "9781594489501",
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "genre": "Drama",
+        "price": 14.0,
+        "quantity": 16,
+        "publisher": "Riverhead Books",
+        "year of publication": 2013
+    },
+    {
+        "isbn": "9780553380163",
+        "title": "History of Time",
+        "author": "Stephen Hawking",
+        "genre": "Science",
+        "price": 18.5,
+        "quantity": 12,
+        "publisher": "Bantam",
+        "year of publication": 1998
+    },
+    {
+        "isbn": "9780316769488",
+        "title": "Of Mice and Men",
+        "author": "John Steinbeck",
+        "genre": "Classic",
+        "price": 9.75,
+        "quantity": 20,
+        "publisher": "Penguin Classics",
+        "year of publication": 1993
+    },
+    {
+        "isbn": "9780062562825",
+        "title": "Becoming",
+        "author": "Michelle Obama",
+        "genre": "Biography",
+        "price": 24.99,
+        "quantity": 15,
+        "publisher": "Crown Publishing",
+        "year of publication": 2018
+    },
+    {
+        "isbn": "123455",
+        "title": "Book1",
         "author": "Rakib",
-        "genre": "Arts",
-        "price": 344.0,
-        "quantity": 7,
-        "publisher": "Karm",
-        "year of publication": 2001
+        "genre": "gernre1",
+        "price": 200.0,
+        "quantity": 6,
+        "publisher": "rakibstore",
+        "year of publication": 2024
     }
 ]
